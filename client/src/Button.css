@@ -1,0 +1,10 @@
+.Button {
+  border: 5px dotted orangered;
+  background-color: peru;
+}
+
+.Button_content {
+  font-size: 15px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+}
