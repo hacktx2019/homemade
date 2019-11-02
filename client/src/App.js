@@ -1,17 +1,14 @@
 import React from 'react';
+import Button from './Button.js';
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      data: 0
-    };
-  }
-
   render() {
     return (
+      // All the componenets of our web application
       <div>
-        <button onClick={() => a}>TRY</button>
+        <Button name="Login" />
+        <Button name="Sign In" />
+        <Button name="Request Food" />
       </div>
     )
   }
